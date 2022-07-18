@@ -1,10 +1,7 @@
-pipeline {
-    agent any
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
-}
+node {
+  stage('Build Application') {
+        sh '''
+        npm install
+        '''
+  }
+}Copy
