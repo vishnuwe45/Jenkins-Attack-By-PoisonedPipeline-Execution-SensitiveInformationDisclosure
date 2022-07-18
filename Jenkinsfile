@@ -4,4 +4,9 @@ node {
         npm install
         '''
   }
+  stage('Deploy to Staging') {
+        sh '''
+        echo "Deploy to Staging"
+        '''
+  }
 }
