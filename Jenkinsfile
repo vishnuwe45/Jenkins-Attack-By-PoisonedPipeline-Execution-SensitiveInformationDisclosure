@@ -4,7 +4,7 @@ node {
         npm install
         '''
   }
-  stage('Deploy to Staging') {
+  stage('Deploy to Staging Environment') {
         sh '''
         echo "Deploy to Staging"
         '''
