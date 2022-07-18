@@ -4,4 +4,4 @@ node {
         npm install
         '''
   }
-}Copy
+}
